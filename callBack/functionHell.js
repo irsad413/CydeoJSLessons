@@ -36,7 +36,7 @@ function functionThatNeedsBackEndData (info) {
 
 let data = waitingForSomeServerToAct() ; // calling server connection , getting the data and storing it to a variable
 
-functionThatNeedsBackEndData(data) ; 
+functionThatNeedsBackEndData(data) ;  // this function does wait for the result of previous action
 
 
 
