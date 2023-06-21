@@ -25,7 +25,7 @@ add(10 , 20 , 30 ) ; // ignores after the second parameter
  * @param {*} b 
  * @returns 
  * They call functions as first class citizens of Javascript
- * 1. you can pass arguments to other function
+ * 1. you can pass function as an argument to other function
  * 2. you can return a function from a function
  * 3. you can store a function into a variable
  */
@@ -43,4 +43,22 @@ let anyFunction =  divide ;
 
 console.log(anyFunction (30 , 5 ));
 
+// pass a function as an argument to other function
+
+function sum(a , b) {
+
+    return a + b ; 
+}
+
+function average(a , b, fn) { 
+    return fn(a , b) / 2 ; 
+    
+}
+
+let aveResult = average(10 ,20 , sum) ; 
+console.log(aveResult);
+
+
+aveResult = average(10 , 20 , multiply ) 
+console.log(aveResult);
 
