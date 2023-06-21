@@ -40,7 +40,10 @@ console.log(x*y); // NaN
 const number = 35 ; 
 // type error: Assignment to constant variable
 // number = 45
-number = 45 ; 
+
 console.log(number);
+
+let userName = null ;
+console.log(userName);
 
 
