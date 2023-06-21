@@ -30,3 +30,11 @@ waitingForSomeServerToAct(functionThatNeedsBackEndData)
  * what is a callBack Hell ? 
  * what is async code what is sync code? 
  */
+
+
+alert("This is a JS alert")
+
+/**
+ * There are some JS commands like alert , prompt : these will work only in browers with live server
+ * 
+ */
