@@ -38,3 +38,6 @@ alert("This is a JS alert")
  * There are some JS commands like alert , prompt : these will work only in browers with live server
  * 
  */
+
+let userName = prompt("Enter your username")  // prompt like scanner in java
+console.log(userName);
